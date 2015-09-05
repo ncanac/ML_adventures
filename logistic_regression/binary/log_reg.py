@@ -39,5 +39,5 @@ plt.xlabel("$x_1$", size=20)
 plt.ylabel("$x_2$", size=20)
 plt.tight_layout()
 
-plt.show()
-#plt.savefig("log_reg_plot1.png")
+#plt.show()
+plt.savefig("log_reg_plot1.png")
