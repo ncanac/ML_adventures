@@ -13,7 +13,7 @@ from sklearn import linear_model as lm
 # Load the data from ex2data1.txt into X and y
 data = np.loadtxt("ex2data1.txt")
 X = data[:, 0:2]
-y = data[:,2]
+y = data[:, 2]
 
 # Create a LogisticRegression object
 logreg = lm.LogisticRegression(penalty='l2', dual=False, C=1, solver='lbfgs')
